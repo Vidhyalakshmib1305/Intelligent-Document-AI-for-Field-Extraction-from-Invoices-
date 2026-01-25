@@ -1,1 +1,1 @@
-# Intelligent-Document-AI-for-Field-Extraction-from-Invoices-
+# Intelligent-Document-AI-for-Field-Extraction-from-Invoices
