@@ -205,3 +205,51 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ============================================================================
+# IDFC Invoice Extraction Project
+# ============================================================================
+
+# Model weights and cache
+*.pt
+*.pth
+*.bin
+*.safetensors
+models/
+.paddleocr/
+huggingface_cache/
+
+# Dataset files
+*.zip
+*.tar.gz
+extracted_data/
+train/
+dataset/
+
+# Images and documents
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Output files
+sample_output/
+output.json
+results.json
+batch_results*.json
+
+# Colab
+.config/
+
+# Secrets
+.env
+secrets.json
+api_keys.txt
+
+# Large files
+*.h5
+*.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
